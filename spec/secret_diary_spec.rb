@@ -30,3 +30,5 @@ RSpec.describe SecretDiary do
     pending "gets written"
   end
 end
+
+git test
