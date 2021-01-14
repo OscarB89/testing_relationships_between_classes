@@ -41,12 +41,12 @@ RSpec.describe SecretDiary do
 
     it "gets read" do
       expect(subject).to receive (:read)
-      subject.read
+      diary.read
     end
 
     it "gets written" do
       expect(subject).to receive (:write)
-      subject.write("Hello")
+      diary.write("Hello")
     end
 
   end
